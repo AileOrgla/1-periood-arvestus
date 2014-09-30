@@ -13,13 +13,13 @@
         <h2>Tingimuslause</h2>
           <?php {
               $number = rand(100,200);
-              if ($number>"150") {
+                if ($number>"150") {
                   echo "Juhuslik number ".$number." on suurem kui 150.";
-              }
-              if ($number<"150") {
+                }
+                 if ($number<"150") {
                   echo "Juhuslik number ".$number." on väiksem kui 150.";
-              }
-          }
+                }
+            }
           ?>
 
         <!--  Sisesta siia kood -->
@@ -27,7 +27,9 @@
         <h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
 
-        <h2>Kõikide piltide väljastamine</h2>
+            <img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/<?php echo rand(1, 12); ?>.jpg"/>
+
+          <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
       </section>
     </main>
